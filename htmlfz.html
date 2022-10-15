@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Title Generator</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Passward Generator</h1>
+        <div class="input">
+            <div>
+                <input type="checkbox" name="include-number" id="include-number"/>
+                <label for="include-name">Include-number</label>
+            </div>
+            <div>
+                <input type="checkbox" name="include-symbol" id="include-symbol"/>
+                <label for="include-name">Include-symbol</label>
+            </div>
+            <div>
+                <input type="checkbox" name="include-uppercase" id="include-uppercase"/>
+                <label for="include-name">Include-uppercase</label>
+            </div>
+            <div>
+                <label for="include-length">include-length</label>
+                <input type="number" name="include-length" id="Include-length"/>
+            </div>
+            <button class="generate-btn" onclick="generatePassward()">
+                Generate-Passward
+            </button>
+            <p class="passward" id="generated-passward"></p>
+        </div>
+        
+
+    </div>
+    
+</body>
+</html>
